@@ -1,13 +1,13 @@
 # Hybrid Genetic Algorithm
 
 ## Abstract:
-<p align="justify">This project consist of implementing a genetic algorithm to optimize the routing of truck deliveries to minimize the transportation cost. A genetic algorithm (GA) is a metaheuristic inspired by Darwin's theory of natural selection, part of the larger class of evolutionary algorithms. With a wide range of <b>different applications</b>, beyond their common use in the field of operations research, GAs are particuliarly useful for Decision Tree pruning as well as hyperparameter optimization of machine learning models. This project was conducted from September 2020 to January 2021 as a student at the <b>University of Technology of Troyes</b>. Below are a few paragraphs to give you context about the project.</p>
+<p align="justify">This project consist of implementing a genetic algorithm to optimize the routing of truck deliveries to minimize the transportation cost. A genetic algorithm (GA) is a metaheuristic inspired by Darwin's theory of natural selection, part of the larger class of evolutionary algorithms. With a wide range of <b>different applications</b>, beyond their common use in the field of operations research, GAs are particuliarly useful for decision tree pruning as well as hyperparameter optimization of machine learning models. This project was conducted from September 2020 to January 2021 as a student at the <b>University of Technology of Troyes</b>. Below are a few paragraphs to give you context about the project.</p>
 
 ## Repository Assets:
 
 - [Genetic Algorithm & 2-Opt Local Search](genetic-algorithm_models/tsptw) - [Full Code](genetic-algorithm_models/tsptw/ga-two-opt-tsptw.bas)
 - [Genetic Algorithm & Split](genetic-algorithm_models/vrp) - [Full Code](genetic-algorithm_models/vrp/ga-split-vrp.bas)
-- [TSPTW Linear Model (AMPL)](linear_model_ampl/tsptw/)
+- [TSPTW Linear Model (AMPL)](linear_model_ampl/) - [Full Code](linear_model_ampl/linear_model_tsptw.mod)
 - [Project Report](genetic-algorithm_report.pdf) - To be translated to English
 
 ## Business Context:
@@ -19,7 +19,7 @@
 
 <p align="justify"> The objective of this project is to model and solve a <i>TSPTW</i> (Travelling Salesman Problem with Time Windows). In simpler words, optimize the route to visit a set of N customers and return to an initial location, equivalent to determine the optimal order of visit that minimize the total distance travelled. Time windows in this project are flexible. That is, they can be overruled but will lead to a lateness cost penalty. The problem will be modelled in <i>AMPL</i> and solved using a <i>Genetic Algorithm</i> including the commonly used <i>2-Opt</i> local search move, which in view of the time windows constitutes the biggest algorithmic challenge of this project.</p>
 
-<p align="justify"> As the demand grows,the vehicle capacity requires to create multiple routes, and make additional decisions around which customers to affect to each route, and still, in which order should each route visit their affected customers. This is know as the VRP (Vehicle Routing Problem). In 2004, Pr. Christian PRINS, Full Professor at the <b>University of Technology of Troyes</b> published a route-first cluster-second heuristic using Hybrid Genetic Algorithm approach to solve the VRP by using the Split algorithm as the Fitness Function for the genetic algorithm. The Split optimally partitions a giant tour solution (without occurrences of the depot) into separate routes at minimum cost. This approach was also implemented to solve the VRP on the same dataset.</p>
+<p align="justify"> As the demand grows,the vehicle capacity requires to create multiple routes, and make additional decisions around which customers to affect to each route, and still, in which order should each route visit their affected customers. This is know as the <i>VRP</i> (Vehicle Routing Problem). In 2004, Pr. Christian PRINS, Full Professor at the <b>University of Technology of Troyes</b> published a route-first cluster-second heuristic using Hybrid Genetic Algorithm approach to solve the VRP by using the <i>Split algorithm</i> as the <i>Fitness Function</i> for the genetic algorithm. The Split optimally partitions a giant tour solution (without occurrences of the depot) into separate routes at minimum cost. This approach was implemented in this project to solve the VRP on the same dataset.</p>
 
 ***
 
