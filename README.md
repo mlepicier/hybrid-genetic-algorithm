@@ -9,7 +9,6 @@
 - [Genetic Algorithm & Split](genetic-algorithm_models/vrp) - [Full Code](genetic-algorithm_models/vrp/ga-split-vrp.bas)
 - [TSPTW Linear Model (AMPL)](linear_model_ampl/tsptw/)
 - [Project Report](genetic-algorithm_report.pdf) - To be translated to English
-<br/>
 
 ## Business Context:
 
