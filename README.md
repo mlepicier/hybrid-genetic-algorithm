@@ -1,7 +1,7 @@
 # Hybrid Genetic Algorithm
 
 ## Abstract:
-<p align="justify">This project consist of implementing a genetic algorithm to optimize the routing of truck deliveries to minimize the transportation cost. A genetic algorithm (GA) is a metaheuristic inspired by Darwin's theory of natural selection, part of the larger class of evolutionary algorithms. With a wide range of <b>different applications</b>, beyond their common use in the field of operations research, GAs are particuliarly useful for decision tree pruning as well as hyperparameter optimization of machine learning models. This project was conducted from September 2020 to January 2021 as a student at the <b>University of Technology of Troyes</b>. Below are a few paragraphs to give you context about the project.</p>
+<p align="justify">This project consist of implementing a genetic algorithm to optimize the routing of truck deliveries to minimize the transportation cost. A genetic algorithm (GA) is a metaheuristic inspired by Darwin's theory of natural selection, part of the larger class of evolutionary algorithms. With a wide range of <b>different applications</b>, beyond their common use in the field of operations research, GAs are particuliarly used in <b>machine learning</b> for decision tree pruning, hyper-parameter optimization (HPO), automated machine learning (AutoML), and neural architecture search (NAS). This project was conducted from September 2020 to January 2021 as a student at the <b>University of Technology of Troyes</b>. Below are a few paragraphs to give you context about the project.</p>
 
 ## Repository Assets:
 
